@@ -1,0 +1,9 @@
+{
+  "job_id": "glb_retest",
+  "input_mode": "mesh",
+  "source_mesh": "glb-mock-input.glb",
+  "input_unit": "m",
+  "target_height_mm": 150,
+  "height_includes_base": false,
+  "output_formats": ["stl", "glb", "blend"]
+}

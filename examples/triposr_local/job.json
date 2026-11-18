@@ -1,0 +1,10 @@
+{
+  "job_id": "triposr_local",
+  "input_mode": "image",
+  "source_images": ["front.png"],
+  "provider": "triposr",
+  "target_height_mm": 150,
+  "height_includes_base": true,
+  "base": {"enabled": true, "shape": "round", "height_mm": 4, "margin_mm": 4},
+  "output_formats": ["stl", "glb", "blend"]
+}

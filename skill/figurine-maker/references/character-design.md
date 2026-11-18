@@ -1,0 +1,3 @@
+# Character and continuity fallback
+
+Create a reviewable specification before model generation. Record: identity and silhouette; proportions; face, hair and distinctive marks; clothing and colors; props and attachment points; pose and base; front, side and back details; unknown or occluded details; target size and print process. Separate user-provided facts from assumptions. Lock these traits across views, keep pose and costume consistent, and flag unseen details as inferred rather than reconstructed. Request user review before treating generated concept art as an approved reference. Skillry is optional and its availability and rights must be checked independently; this fallback does not require it.

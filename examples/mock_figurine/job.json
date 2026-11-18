@@ -1,0 +1,24 @@
+{
+  "job_id": "mock_figurine",
+  "target_height_mm": 150,
+  "height_includes_base": true,
+  "printer_profile": "fdm_generic",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "output_formats": [
+    "stl",
+    "blend"
+  ],
+  "input_mode": "image",
+  "source_images": [
+    "front.png"
+  ],
+  "provider": "mock",
+  "mock_format": "stl",
+  "base": {
+    "enabled": true,
+    "shape": "round",
+    "height_mm": 4,
+    "margin_mm": 4
+  }
+}

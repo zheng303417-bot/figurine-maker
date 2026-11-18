@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "figurine-maker-runtime"
+version = "1.0.0"
+requires-python = ">=3.10"
+description = "Local execution for the Figurine Maker skill"
+
+[project.scripts]
+figurine = "figurine_runtime.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["figurine_runtime*", "blender_scripts"]

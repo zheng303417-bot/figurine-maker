@@ -1,0 +1,14 @@
+/.tools/
+/.venv/
+/blender-portable.*
+/blender-*-windows-x64/
+/projects/
+**/__pycache__/
+*.egg-info/
+runtime/build/
+.env
+
+/dist/
+/geometry-test/
+/result.json
+/evidence/*.log
